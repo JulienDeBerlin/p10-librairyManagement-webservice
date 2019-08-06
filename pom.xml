@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
-        <module>p7-webservice-app-webservice</module>
-        <module>p7-webservice-app-business</module>
-        <module>p7-webservice-app-consumer-contract</module>
-        <module>p7-webservice-app-consumer-jpa</module>
-        <module>p7-webservice-app-model</module>
+        <module>p10-webservice-app-webservice</module>
+        <module>p10-webservice-app-business</module>
+        <module>p10-webservice-app-consumer-contract</module>
+        <module>p10-webservice-app-consumer-jpa</module>
+        <module>p10-webservice-app-model</module>
     </modules>
 
     <parent>
@@ -19,10 +19,10 @@
     </parent>
 
     <groupId>com.berthoud</groupId>
-    <artifactId>p7-webservice-app</artifactId>
+    <artifactId>p10-webservice-app</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>p7-webservice-app</name>
+    <name>p10-webservice-app</name>
     <description>Parent project for multi-modules webservice-app</description>
 
     <properties>
@@ -42,31 +42,31 @@
             <!-- ===== Modules ===== -->
             <dependency>
                 <groupId>com.berthoud</groupId>
-                <artifactId>p7-webservice-app-business</artifactId>
+                <artifactId>p10-webservice-app-business</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>com.berthoud</groupId>
-                <artifactId>p7-webservice-app-consumer-contract</artifactId>
+                <artifactId>p10-webservice-app-consumer-contract</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>com.berthoud</groupId>
-                <artifactId>p7-webservice-app-consumer-jpa</artifactId>
+                <artifactId>p10-webservice-app-consumer-jpa</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>com.berthoud</groupId>
-                <artifactId>p7-webservice-app-model</artifactId>
+                <artifactId>p10-webservice-app-model</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>com.berthoud</groupId>
-                <artifactId>p7-webservice-app-webservice</artifactId>
+                <artifactId>p10-webservice-app-webservice</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
